@@ -57,6 +57,5 @@ geolocate.on('geolocate', function(event) {
     document.getElementById('info').innerHTML = lng.toFixed(5) + "," + lat.toFixed(5)
 })
 
-/
 
 
