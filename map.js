@@ -9,7 +9,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWVzdGVmYW0iLCJhIjoiY2pza214NHVsMmJtbzQ0czdza
 let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/aestefam/cjsqb5h3j089v1fmjx0jihkbj',
-    center: [-73.96181,40.807747],
+    center: [-73.96181,40.80774],
     zoom: 12
 
 
@@ -56,6 +56,7 @@ geolocate.on('geolocate', function(event) {
     // format lng lat values and display them on our 'info' element
     document.getElementById('info').innerHTML = lng.toFixed(5) + "," + lat.toFixed(5)
 })
+
 
 
 
